@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+
+    <a href="http://www.baidu.com">百度</a><br/>
+    <a href="file:///D:/qianfengqiu/first/chaolianjie/welcom.html">欢迎</a>
+    <a href="welcom.html">欢迎</a>
+<hr/>
+
+
+     <!--注释不显示 图片-->
+    <img src='zhx.jpg' width="150px" height="200px">
+<hr />
+
+表单元素
+<br/>
+<br/>
+
+<form action="ww.123.jsp" method='get'>                     <!--form内信息传到该路径,get快，不推荐get方式暴力冲击，post-->
+
+
+
+
+
+<label for='un'>
+用户名：
+</label>
+<input title="用户名" type="text" id='un' name="username" placeholder='请填写用户名'/>                 <!--文本框  title显示-->
+<br/><br/>
+
+
+密&nbsp;&nbsp;码：<input type="password" name="pwd" value=''/>              <!--密码框-->
+<br/><br/>
+
+
+
+性&nbsp;&nbsp;别:
+   <label>
+           <input type="radio" name="xingbie" value='1'/>
+            男                                                          <!--单选钮-->
+   </label>
+
+
+   <label>
+           <input type="radio" name="xingbie" value='2'/>
+             女
+    </label>
+
+    <label>
+           <input type="radio" name="xingbie" value='-1' checked='checked'/>
+           不明
+    </label>
+<br/><br/>
+
+
+
+
+爱&nbsp;&nbsp;好:
+<label>
+<input type='checkbox' name='xingqu' value='1'/>琴
+</label>
+<label>
+           <input type='checkbox' name='xingqu' value='2'/>棋
+</label>
+<label>
+           <input type='checkbox' name='xingqu' value='3'/>书
+</label>
+<label>
+           <input type='checkbox' name='xingqu' value='4'/>画
+</label>
+
+
+
+<br/><br/>
+
+传照片：<input type='file'/>                                           <!--文件选择器-->
+
+
+
+
+
+
+星&nbsp;&nbsp;座：<select name='star'>                                       <!--下拉菜单-->
+                    <optgroup label='北方天空'>
+       <option value='1'>白羊</option>
+       <option value='2'>摩羯</option>
+       <option value='3'>处女</option>
+                     </optgroup>
+                      <optgroup label='南方天空'>
+       <option value='4'>射手</option>
+       <option value='5'>水平</option>
+       <option value='6'>天蝎</option>
+       <option value='7'>金牛</option>
+                     </optgroup>        
+
+</select>
+<br/><br/>
+自我介绍:                                                                <!--文本域-->
+<br/>
+<textarea rows='8' cols='60'>
+</textarea>
+    <!--input按钮组件-->
+<hr/>
+    <input type='submit' value='用户注册信息'>
+    <input type='reset' value='重置'>
+    <input type='button' value='ok'>
+     <input type='image' src=''>                        <!--图片类型的submit,src="照片路径"-->
+<br/><br/>
+<hr/>
+     <button type='submit'>按钮1</button>
+     <button type='reset'>按钮2</button>
+     <button type='button'>按钮3</button>
+<br/><br/>
+<hr>
+      <input type='hidden' name='pid' value='tom999'>
+
+
+
+
+
+</form>
+
+</body>
+</html>
